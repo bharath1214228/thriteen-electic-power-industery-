@@ -1,0 +1,116 @@
+.inside div.field-box {
+	border-top: #e8e8e8 solid 1px;
+	padding: 15px 10px;
+}
+.inside div.field-box:first-child {
+	border-top: none;
+}
+.inside div.field-box input[type="text"],
+.inside div.field-box input[type="number"],
+.inside div.field-box input[type="password"],
+.inside div.field-box input[type="email"],
+.inside div.field-box textarea {
+	padding: 5px;
+	width: 100%;
+}
+
+.oo-player-container {
+	min-width: 0 !important;
+}
+
+p.label {
+	margin-top: 0px;
+}
+p.label label {
+	display: block;
+	font-weight: bold;
+}
+
+.video-channel {
+  position: relative;
+  width: 560px;
+}
+.video-channel .slider-container {
+  overflow: hidden;
+  position: relative;
+  height: 220px;
+  margin: 0 auto;
+  width: 516px;
+}
+.video-channel .arrow {
+  cursor: pointer;
+  display: block;
+  font-size: 60px;
+  height: 60px;
+  line-height: 60px;
+  position: absolute;
+  top: 25px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  width: 22px;
+  z-index: 10;
+}
+.video-channel .arrow.left {
+  left: 0px;
+}
+.video-channel .arrow.left:before {
+  content: '\2039';
+}
+.video-channel .arrow.right {
+  right: 0px;
+}
+.video-channel .arrow.right:before {
+  content: '\203a';
+}
+.video-channel .slider-container .slider-content {
+  font-size: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+}
+.video-channel .slider-container .slider-content li {
+  display: inline-block;
+  height: 220px;
+  list-style-type: none;
+  margin: 0px 6px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  white-space: normal;
+  width: 160px;
+}
+.video-channel .slider-container .slider-content li .video-img {
+  background: #000;
+  display: table-cell;
+  height: 120px;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 160px;
+}
+.video-channel .slider-container .slider-content  li .video-img img {
+  height: auto;
+  width: 160px;
+}
+.video-channel .slider-container .slider-content li h4 {
+  font-size: 13px;
+  line-height: 15px; 
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+}
+.video-channel .slider-container .slider-content li h4 a {  
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.video-title {
+  margin-bottom: 5px !important;
+  font-size: 20px !important;
+}
